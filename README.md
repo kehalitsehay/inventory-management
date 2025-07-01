@@ -147,3 +147,8 @@ Generates detailed profit & loss reports using FIFO purchase costs, VAT, and ope
 ## 👨‍💼 Author
 - **Kehali Tsehay**
 - Kehalits@gmail.com | https://www.linkedin.com/in/kehali-tsehay
+ 
+## 📃 License
+- MIT License
+
+Copyright (c) 2025 Kehali Tsehay
