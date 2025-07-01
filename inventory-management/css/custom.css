@@ -1,0 +1,32 @@
+.quantityInput{
+  width: 50px !important;
+  padding: 6px 3px;
+  text-align: center;
+  border: 1px solid #cfb1b1;
+  outline: 0;
+  margin-right: 1px;
+}
+.my_table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.my_table th, td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+.qtyBtn{
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.portfolio{
+  color: palevioletred;
+  font-size: 14px;
+}
+@media(max-width:768px){
+  .my-sub-navigation{
+      background-color: #001B3A !important;
+      margin-left: -35px !important;
+  }
+}
