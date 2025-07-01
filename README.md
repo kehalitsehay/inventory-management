@@ -44,6 +44,7 @@ There was an urgent need for an automated inventory management system that would
 
 - **T – Task**
 I was assigned to design and develop a comprehensive, centralized Inventory Management System that would:
+
   -- Implement FIFO (First-In, First-Out) logic to accurately calculate cost of goods sold.
   
   -- Track multiple purchase prices per product.
@@ -60,6 +61,7 @@ I was assigned to design and develop a comprehensive, centralized Inventory Mana
 
 - **A – Action**
 I developed the system using:
+
   -- Frontend: HTML, CSS, JavaScript, and Bootstrap
   
   -- Backend: PHP
@@ -67,6 +69,7 @@ I developed the system using:
   -- Database: MySQL
 
 Key system modules I implemented include:
+
   -- A products table with SKU, stock quantity, and unit pricing.
   
   -- A purchases table that logs every stock-in record, including price, quantity, and date.
@@ -76,6 +79,7 @@ Key system modules I implemented include:
   -- A sales module that determines real-time profit using FIFO purchase prices.
   
 A multi-step approval workflow **(Role-Based Hierarchy)**:
+
   -- Any staff member can request a product.
   
   -- The **Admin**reviews and approves the request.
@@ -91,6 +95,7 @@ A multi-step approval workflow **(Role-Based Hierarchy)**:
   -- An expense tracker for overhead costs.
 
 An automated financial reporting engine that:
+
   -- Calculates net profit after expenses.
   
   -- Provides real-time inventory valuation for semi-annual and annual financial reports.
